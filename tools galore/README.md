@@ -9,3 +9,5 @@ with editJson("your json file.json") as j:
     #edit myjson to your liking
     j.json = myjson
 ```
+## Might release
+* The scripts behind the dissect command.
