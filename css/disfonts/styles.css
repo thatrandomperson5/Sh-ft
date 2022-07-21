@@ -111,3 +111,38 @@ code {
 .hljs-strong {
   font-weight: 700;
 }
+.discord-msg-block {
+  width: 4px;
+  /*height: 100%;*/
+  border-radius: 4px;
+  background-color: #4f545c;
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  /* position: absolute; */
+}
+.discord-msg-wrap {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  line-height: 1.375rem;
+  white-space: break-spaces;
+  word-wrap: break-word;
+}
+.discord-msg-wrap blockquote {
+  /* display: block; */
+  padding: 0 8px 0 12px;
+  box-sizing: border-box;
+  max-width: 90%;
+  margin: 0;
+  
+}
