@@ -9,3 +9,5 @@ Some public tools that the discord bot Sh' ft is made with!
 ```html
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/thatrandomperson5/Sh-ft@21bfe82/css/init.js">
 ```
+
+## Tools I used can be found [here](https://github.com/thatrandomperson5/Sh-ft/tree/main/tools%20galore)
