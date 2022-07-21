@@ -5,4 +5,4 @@ Some public tools that the discord bot Sh' ft is made with!
 
 
 ## Usefull css sheets
-* [Discord Styles](), A stylesheet for recreating discord messages. Goes with the \*dissect command.
+* [Discord Styles](), A stylesheet for recreating discord messages. Goes with the `*dissect` command.
