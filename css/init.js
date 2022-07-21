@@ -17,7 +17,7 @@ js_auto_blocks.forEach((qut) => {
 
 var discord_dark_css = document.createElement("link")
 discord_dark_css.setAttribute("rel","stylesheet")
-discord_dark_css.setAttribute("href","https://cdn.jsdelivr.net/gh/thatrandomperson5/Sh-ft@latest/css/disfonts/styles.css")
+discord_dark_css.setAttribute("href","https://cdn.jsdelivr.net/gh/thatrandomperson5/Sh-ft@16b3f9b/css/disfonts/styles.css")
 var hljs = document.createElement("link")
 hljs.setAttribute("rel","stylesheet")
 hljs.setAttribute("href","https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css")
