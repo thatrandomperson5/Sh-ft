@@ -1,4 +1,5 @@
 
+//Creation of the little side bar thing on blockquotes.
 var js_auto_blocks = document.getElementsByTagName("blockquote")
 js_auto_blocks = Array.from(js_auto_blocks)
 js_auto_blocks.forEach((qut) => {
@@ -14,7 +15,7 @@ js_auto_blocks.forEach((qut) => {
   qut.parentNode.replaceChild(node, qut)
   
 });
-
+//Style sheet connecting
 var discord_dark_css = document.createElement("link")
 discord_dark_css.setAttribute("rel","stylesheet")
 discord_dark_css.setAttribute("href","https://cdn.jsdelivr.net/gh/thatrandomperson5/Sh-ft@3f334e0/css/disfonts/styles.css")
