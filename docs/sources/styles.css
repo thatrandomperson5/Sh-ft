@@ -1,1 +1,24 @@
 
+.status-wrap {
+  max-height: 30px;
+  display: inline-block;
+  /* float: right; */
+  margin: auto;
+  text-align: center;
+  background-color: #36393f;
+  padding: 5px 10px;
+  border-radius: 15px;
+  
+}
+.i {
+  display: inline-block;
+  width: 70%;
+}
+.wtext {
+  font-size: 25px;
+}
+.circle-image {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
