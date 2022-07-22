@@ -7,10 +7,13 @@ async function pre_rend(page) {
     
 }
 window.addEventListener("hashchange", () => {
+    index()
     if (location.hash != "#") {
         var href = location.href
         var anti = document.querySelectorAll("body script")
-        
+        anti.forEach((arg) => {
+            arg.remove()
+        })
         pre_rend(`${href.substring(0, href.lastIndexOf('/')) + "/"}${location.hash.slice(1)}.html`)
         
     } else {
