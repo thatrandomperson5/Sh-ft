@@ -22,9 +22,7 @@
   height: 20px;
   border-radius: 100%;
 }
-.t-nav {
-  
-}
+
 .nav-b {
   padding: 15px 30px 15px 0px;
 }
@@ -40,6 +38,7 @@
   color:#f0f9ff;
   background-color:#282d32;
   width: 100%;
+  
   
   
 }
@@ -99,13 +98,17 @@
   color:#aaa;
   margin-bottom:0;
 }
-.list-inline {
-  
-  
-}
+
 .list-inline-item {
   display: inline;
   font-size: 85%;
 }
 
 /* Credit to https://epicbootstrap.com/snippets/footer-basic */
+.subbody {
+  margin: 20px auto;
+}
+
+body {
+  margin: 0;
+}
