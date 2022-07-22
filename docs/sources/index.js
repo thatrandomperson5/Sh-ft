@@ -1,3 +1,4 @@
+async function index () {
 fetch('https://discord.com/api/guilds/999798556644868196/widget.json')
   .then(response => response.json())
   .then(data => {
@@ -8,8 +9,11 @@ fetch('https://discord.com/api/guilds/999798556644868196/widget.json')
       tag.innerHTML = `<img class="circle-image" src=${data["members"][1]["avatar_url"]}><b class="wtext">&nbsp;${data["members"][1]["username"]} &bull; ${data["members"][1]["status"]}</b>`
    });
   });
+}
 var myIndex = 0;
+index()
 carousel();
+
 
 function carousel() {
   var i;

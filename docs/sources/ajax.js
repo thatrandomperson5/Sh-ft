@@ -1,16 +1,19 @@
-function pre_rend(page) {
-    var xhttp = new XMLHttpRequest();
-    xhttp.onload =  () => {
-        
-
-        document.write(this.responseText);
-        
-    }
-    console.log(page)
-    xhttp.open("GET", page, true);
-    xhttp.send();
+async function pre_rend(page) {
+    fetch(page)
+        .then(response => response.text())
+        .then(data =>{
+            document.body.innerHTML = data;
+        })
     
 }
 window.addEventListener("hashchange", () => {
-    pre_rend(`${location.pathname}${location.hash.slice(1)}.xml`)
+    if (location.hash != "#") {
+        var href = location.href
+        var anti = document.querySelectorAll("body script")
+        
+        pre_rend(`${href.substring(0, href.lastIndexOf('/')) + "/"}${location.hash.slice(1)}.html`)
+        
+    } else {
+        pre_rend(`${location.pathname}index.html`)
+    }
 });
