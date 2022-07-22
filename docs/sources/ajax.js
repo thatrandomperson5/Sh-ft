@@ -7,5 +7,5 @@ async function pre_rend(page) {
     xhttp.send();
 }
 window.addEventListener("hashchange", () => {
-    console.log(location.hash)
+    console.log(location.hash.slice(1))
 });
