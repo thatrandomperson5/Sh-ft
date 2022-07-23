@@ -41,7 +41,7 @@
   display: block;
   overflow: hidden;
   text-align: center;
-  overflow-x: hidden;
+  overflow-x: hidden!important;
   transform: translate(-25%, 0%);
   
 }
@@ -111,4 +111,7 @@
 body {
   overflow-x: hidden!important;
   -webkit-overflow-scrolling: touch!important;
+}
+.footer-wrapper {
+  overflow-x: hidden!important;
 }
