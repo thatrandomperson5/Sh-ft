@@ -37,9 +37,12 @@
   padding:40px 0;
   color:#f0f9ff;
   background-color:#282d32;
-  width: 100%;
+  width: 200%;
+  display: block;
+  overflow: hidden;
+  text-align: center;
   
-  
+  transform: translate(-25%, 0%);
   
 }
 
@@ -105,10 +108,6 @@
 }
 
 /* Credit to https://epicbootstrap.com/snippets/footer-basic */
-.subbody {
-  margin: 20px auto;
-}
-
 body {
-  margin: 0;
+  overflow-x: hidden!important;
 }
