@@ -108,7 +108,7 @@
 }
 
 /* Credit to https://epicbootstrap.com/snippets/footer-basic */
-body {
+html, body {
   overflow-x: hidden!important;
   -webkit-overflow-scrolling: touch!important;
 }
