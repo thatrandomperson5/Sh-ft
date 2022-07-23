@@ -13,4 +13,4 @@ Sadly the Sh' ft bot will never be open source, and will not be realeased to the
 
 ## Tools I used can be found [here](https://github.com/thatrandomperson5/Sh-ft/tree/main/tools%20galore)
 
-<a href="/index.html/">Aref</a>
+
