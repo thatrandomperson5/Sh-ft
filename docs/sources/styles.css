@@ -43,6 +43,7 @@
   text-align: center;
   overflow-x: hidden!important;
   transform: translate(-25%, 0%);
+  position: absolute;
   
 }
 
