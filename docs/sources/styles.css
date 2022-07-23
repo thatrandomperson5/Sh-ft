@@ -42,7 +42,7 @@
   overflow: hidden;
   text-align: center;
   overflow-x: hidden!important;
-  transform: translate(-25%, 0%);
+  /* transform: translate(-25%, 0%); */
   position: absolute;
   
 }
