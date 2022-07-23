@@ -109,7 +109,7 @@
 
 /* Credit to https://epicbootstrap.com/snippets/footer-basic */
 html, body {
-  position: relative!important;
+  
   overflow-x: hidden!important;
   -webkit-overflow-scrolling: touch!important;
 }
