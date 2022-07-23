@@ -41,7 +41,7 @@
   display: block;
   overflow: hidden;
   text-align: center;
-  
+  overflow-x: hidden;
   transform: translate(-25%, 0%);
   
 }
