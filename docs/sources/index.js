@@ -38,5 +38,5 @@ async function carousel2() {
   myIndex2++;
   if (myIndex2 > x.length) {myIndex2 = 1}
   x[myIndex2-1].style.display = "block";
-  setTimeout(carousel, 5000);
+  setTimeout(carousel2, 5000);
 }
