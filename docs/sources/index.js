@@ -11,12 +11,13 @@ fetch('https://discord.com/api/guilds/999798556644868196/widget.json')
   });
 }
 var myIndex = 0;
-index()
+
 carousel2(); 
 carousel();
+index();
 
 
-function carousel() {
+async function carousel() {
   var i;
   var x = document.getElementsByClassName("mySlides");
   for (i = 0; i < x.length; i++) {
