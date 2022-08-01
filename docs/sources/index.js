@@ -30,13 +30,13 @@ async function carousel() {
 }
 
 async function carousel2() {
-  var i;
-  var x = document.getElementsByClassName("mySlides2");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
+  var i2;
+  var x2 = document.getElementsByClassName("mySlides2");
+  for (i2 = 0; i2 < x2.length; i2++) {
+    x2[i2].style.display = "none";
   }
   myIndex2++;
-  if (myIndex2 > x.length) {myIndex2 = 1}
-  x[myIndex2-1].style.display = "block";
+  if (myIndex2 > x2.length) {myIndex2 = 1}
+  x2[myIndex2-1].style.display = "block";
   setTimeout(carousel2, 5000);
 }
