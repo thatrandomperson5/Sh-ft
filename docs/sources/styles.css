@@ -124,4 +124,5 @@ html, body {
 }
 :root {
   --background: black;
+  --background-body: black;
 }
