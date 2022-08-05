@@ -1,6 +1,9 @@
 # Sh' ft
 Some public tools that the discord bot Sh' ft is made with!
 
+<a href='https://google.com'><img height='40' alt='discord-profile' src='https://md-embed-site.dragonhunter1.repl.co/api/v2?tg=Sһ'ft&hash=5713'></a>
+
+
 Sadly the Sh' ft bot will never be open source, and will not be realeased to the public to add to your server anytime soon. This is becuase of security reasons and when the bot is active on a mainstream server it will be linked here.
 ## Visit the main site [here](https://thatrandomperson5.github.io/Sh-ft/)
 
