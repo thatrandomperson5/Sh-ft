@@ -123,6 +123,6 @@ html, body {
   display: none;
 }
 :root {
-  --background: black;
-  --background-body: black;
+  --background: black!important;
+  --background-body: black!important;
 }
