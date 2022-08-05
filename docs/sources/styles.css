@@ -113,7 +113,6 @@
 
 /* Credit to https://epicbootstrap.com/snippets/footer-basic */
 html, body {
-  --background: black;
   overflow-x: hidden!important;
   -webkit-overflow-scrolling: touch!important;
 }
@@ -122,4 +121,7 @@ html, body {
 }
 .my-slides {
   display: none;
+}
+:root {
+  --background: black;
 }
