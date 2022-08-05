@@ -113,7 +113,7 @@
 
 /* Credit to https://epicbootstrap.com/snippets/footer-basic */
 html, body {
-  
+  background-color: black;
   overflow-x: hidden!important;
   -webkit-overflow-scrolling: touch!important;
 }
