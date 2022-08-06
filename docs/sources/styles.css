@@ -22,7 +22,14 @@
   height: 20px;
   border-radius: 100%;
 }
-
+.t-nav {
+    position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
 .nav-b {
   padding: 15px 30px 15px 0px;
 }
