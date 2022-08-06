@@ -14,7 +14,7 @@ var myIndex = 0;
 var myIndex2 = 0;
 carousel2(); 
 carousel();
-index();
+//index();
 
 
 async function carousel() {
