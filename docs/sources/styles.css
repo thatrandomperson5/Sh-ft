@@ -29,8 +29,9 @@
     left: 0;
     right: 0;
     width: 100%;
-    padding: 0 10px;
+    padding: 10 20px;
     background: #0f1317;
+    height: 40px;
 }
 .nav-b {
   padding: 15px 30px 15px 0px;
