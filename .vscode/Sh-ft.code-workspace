@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"livePreview.defaultPreviewPath": "/docs/index.html"
+	}
+}
