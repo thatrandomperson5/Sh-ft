@@ -11,11 +11,13 @@ fetch('https://discord.com/api/guilds/999798556644868196/widget.json')
   });
 }
 var myIndex = 0;
-index()
+var myIndex2 = 0;
+carousel2(); 
 carousel();
+//index();
 
 
-function carousel() {
+async function carousel() {
   var i;
   var x = document.getElementsByClassName("mySlides");
   for (i = 0; i < x.length; i++) {
@@ -25,4 +27,16 @@ function carousel() {
   if (myIndex > x.length) {myIndex = 1}
   x[myIndex-1].style.display = "block";
   setTimeout(carousel, 5000);
+}
+
+async function carousel2() {
+  var i2;
+  var x2 = document.getElementsByClassName("mySlides2");
+  for (i2 = 0; i2 < x2.length; i2++) {
+    x2[i2].style.display = "none";
+  }
+  myIndex2++;
+  if (myIndex2 > x2.length) {myIndex2 = 1}
+  x2[myIndex2-1].style.display = "block";
+  setTimeout(carousel2, 5000);
 }

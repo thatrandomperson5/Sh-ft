@@ -22,7 +22,17 @@
   height: 20px;
   border-radius: 100%;
 }
-
+.t-nav {
+    
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 10 20px;
+    /*background: #0f1317;*/
+    /*height: 40px;*/
+}
 .nav-b {
   padding: 15px 30px 15px 0px;
 }
@@ -36,13 +46,17 @@
 .footer-basic {
   padding:40px 0;
   color:#f0f9ff;
-  background-color:#282d32;
-  width: 200%;
-  display: block;
-  overflow: hidden;
+  background-color:#141617;
+  width: 100%!important;
+  display: block; 
+  overflow-x: hidden!important;
+  /* transform: translate(-25%, 0%); */
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
   text-align: center;
-  
-  transform: translate(-25%, 0%);
   
 }
 
@@ -108,6 +122,19 @@
 }
 
 /* Credit to https://epicbootstrap.com/snippets/footer-basic */
-body {
+html, body {
+  overflow-x: hidden!important;
+  -webkit-overflow-scrolling: touch!important;
+}
+.footer-wrapper {
   overflow-x: hidden!important;
 }
+.my-slides {
+  display: none;
+}
+/*
+:root { 
+  --background: black!important;
+  --background-body: black!important;
+}
+*/
