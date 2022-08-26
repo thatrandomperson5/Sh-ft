@@ -1,6 +1,6 @@
 .discord-msg {
   background-color: #36393f;
-  font-family: Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #dcddde;
   font-size: 16px;
   font-weight: 400;
@@ -12,9 +12,7 @@
   /* white-space: break-spaces; */
   padding: 10px;
   border-radius: 10px;
-  display:block;
-
-  
+  display: block;
 }
 .discord-msg code {
   font-size: 0.875rem;
@@ -147,7 +145,6 @@
   box-sizing: border-box;
   max-width: 90%;
   margin: 0;
-  
 }
 discord-wrap {
   /**/
@@ -162,15 +159,13 @@ discord-wrap {
   text-rendering: optimizeLegibility;
   line-height: 22px;
   text-align: left;
-  font-family: Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 discord-wrap username {
   display: inline;
   padding: 10px;
   font-weight: 500;
   vertical-align: center;
-  
-  
 }
 discord-wrap img {
   display: inline;
@@ -180,5 +175,4 @@ discord-wrap img {
   min-height: 45px;
   border-radius: 100%;
   mask-border-width: 20px;
-  
 }
