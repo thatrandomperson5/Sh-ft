@@ -1,0 +1,31 @@
+name: Prettier
+
+on: [push, pull_request]
+
+jobs:
+  prettier:
+    name: prettier
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - run: npm install --save-dev --save-exact prettier
+      - run: npx prettier --write .
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          title: "Format code with prettier push"
+          commit-message: ":art: Format code with prettier"
+          body: |
+            There appear to be some code formatting errors in ${{ github.sha }}. This pull request
+            uses the [prettier](https://prettier.io) formatter to fix these issues.
+          base: ${{ github.head_ref }} # Creates pull request onto pull request or commit branch
+          branch: actions/prettier       
+          
+  #notify: 
+      #name: notify
+      #runs-on: ubuntu-latest
+      
